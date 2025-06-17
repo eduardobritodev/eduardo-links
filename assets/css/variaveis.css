@@ -15,8 +15,8 @@
   --font-montserrat: 'Montserrat', sans-serif;
 
 
-  --font-heading: var(--font-oxanium);
-  --font-sans: var(--font-montserrat);
+  --font-h: var(--font-oxanium);
+  --font-p: var(--font-montserrat);
 }
 
 body {
