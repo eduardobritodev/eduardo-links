@@ -191,7 +191,7 @@
 }
 
 .header h1 {
-    font-family: var(--font-heading);
+    font-family: var(--font-h);
     font-size: 2.2rem;
     margin-bottom: 1rem;
     background: linear-gradient(45deg, var(--color-blue), var(--color-blue-hover));
@@ -204,7 +204,7 @@
     font-size: 1.1rem;
     line-height: 1.6;
     color: var(--color-gray);
-    font-family: var(--font-sans);
+    font-family: var(--font-p);
 }
 
 /* ===== LINHA DIVISÓRIA ===== */
@@ -260,7 +260,7 @@
 }
 
 .section-title h2 {
-    font-family: var(--font-heading);
+    font-family: var(--font-h);
     font-size: 1.5rem;
     color: var(--color-white);
 }
@@ -378,7 +378,7 @@
 /* ===== TEXTOS DOS CARDS ===== */
 .card-standard h3,
 .card-with-image h3 {
-    font-family: var(--font-heading);
+    font-family: var(--font-h);
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
     color: var(--color-white);
@@ -389,7 +389,7 @@
 .card-with-image p {
     font-size: 0.95rem;
     color: var(--color-gray);
-    font-family: var(--font-sans);
+    font-family: var(--font-p);
     line-height: 1.5;
     margin-bottom: 1rem;
 }
@@ -402,7 +402,7 @@
     background: linear-gradient(135deg, var(--color-blue), var(--color-blue-hover));
     color: var(--color-white);
     text-decoration: none;
-    font-family: var(--font-sans);
+    font-family: var(--font-p);
     padding: 15px 50px;
     border-radius: 30px;
     font-weight: 600;
@@ -434,7 +434,7 @@
     text-align: center;
     padding: 2rem;
     color: var(--color-gray);
-    font-family: var(--font-sans);
+    font-family: var(--font-p);
 }
 
 .footer a {
