@@ -17,13 +17,13 @@ useSeoMeta({
   viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no',
 
   // Title and Description
-  title: 'Título do Site',
-  ogTitle: 'Título do Site',
-  description: 'Descrição do Site',
-  ogDescription: 'Descrição do Site',
+  title: 'Eduardo B. | Links',
+  ogTitle: 'Eduardo B. | Links',
+  description: 'Links de indicação do Eduardo Brito =D',
+  ogDescription: 'Links de indicação do Eduardo Brito =D',
   robots: 'index, follow',
   googlebot: 'max-image-preview',
-  author: 'Nome da Empresa',
+  author: 'Eduardo Brito',
 
   // Theme
   themeColor: '#ffffff',
@@ -34,11 +34,11 @@ useSeoMeta({
   ogType: 'website',
   ogImageType: 'image/jpeg',
   ogImage: '',
-  ogUrl: 'https://seusite.com.br',
-  ogSiteName: 'Nome do Site',
+  ogUrl: 'https://links.eduardobrito.dev',
+  ogSiteName: 'Eduardo B. | Links',
   ogLocale: 'pt_BR',
-  applicationName: 'Nome do Site',
-  appleMobileWebAppTitle: 'Nome do Site'
+  applicationName: 'Eduardo B. | Links',
+  appleMobileWebAppTitle: 'Eduardo B. | Links'
 })
 
 watch(router.afterEach, () => {
