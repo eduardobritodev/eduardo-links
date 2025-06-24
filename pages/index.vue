@@ -6,7 +6,7 @@
         </div>
 
         <div class="header-content">
-            <h1>Bem-vindo aos meus links</h1>
+            <h1>Boas-vindas aos meus links!</h1>
             <p>Olá! Sou Eduardo Brito, desenvolvedor front-end focado em criar interfaces intuitivas e experiências interativas que elevam a navegação na web.</p>
         </div>
     </section>
