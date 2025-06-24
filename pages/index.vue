@@ -59,6 +59,30 @@
                         </li>
                     </div>
 
+                    <div class="section-title">
+                        <h2>Sobre mim & contato</h2>
+                    </div>
+
+                    <div class="card-standard">
+                        <li>
+                            <h3>Meu Portfólio</h3>
+                            <p>Veja meus principais projetos, experiências e saiba mais sobre minha trajetória.</p>
+                            <a href="https://eduardobrito.dev" target="_blank" class="link-button">
+                                Acessar portfólio <ArrowUpRight :size="20"/>
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="card-standard card-contact">
+                        <li>
+                            <h3>Solicite um Orçamento</h3>
+                            <p>Precisa de um site, landing page ou solução personalizada? Envie um e-mail e receba uma proposta sob medida para o seu projeto.</p>
+                            <a href="mailto:contato@eduardobrito.dev" class="link-button">
+                                Solicitar orçamento <ArrowUpRight :size="20"/>
+                            </a>
+                        </li>
+                    </div>
+
                     <!-- Principais projetos -->
                     <div class="section-title">
                         <h2>Principais projetos</h2>
@@ -66,9 +90,9 @@
 
                     <div class="card-standard">
                         <li>
-                            <h3>CertifiPro</h3>
+                            <h3>VIAMPEX</h3>
                             <p>Plataforma online para emissão de certificados digitais.</p>
-                            <a href="https://certifipro.vercel.app" target="_blank" class="link-button">
+                            <a href="https://viampex.com.br" target="_blank" class="link-button">
                                 Ver projeto no ar <ArrowUpRight :size="20"/>
                             </a>
                         </li>
@@ -87,16 +111,6 @@
                     <!-- Redes sociais -->
                     <div class="section-title">
                         <h2>Redes sociais</h2>
-                    </div>
-
-                    <div class="card-standard card-contact">
-                        <li>
-                            <h3>Solicite um orçamento personalizado!</h3>
-                            <p>Precisa de uma landing page? Envie um e-mail e receba um orçamento sem compromisso para o seu projeto.</p>
-                            <a href="mailto:contato@eduardobrito.dev" class="link-button">
-                                Clique aqui <ArrowUpRight :size="20"/>
-                            </a>
-                        </li>
                     </div>
 
                     <div class="card-standard">
@@ -140,7 +154,7 @@
 </template>
 
 <script setup>
-
+import { ArrowUpRight } from 'lucide-vue-next';
 </script>
 
 <style scoped>
