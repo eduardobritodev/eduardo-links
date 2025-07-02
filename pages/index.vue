@@ -2,7 +2,7 @@
     <!-- Seção do perfil -->
     <section class="header">
         <div>
-            <img src="../assets/images/eduardo.webp" alt="Foto de perfil" class="profile-image">
+            <img src="../assets/images/eduardo2.webp" alt="Foto de perfil" class="profile-image">
         </div>
 
         <div class="header-content">
@@ -23,27 +23,6 @@
         <div class="container">
             <div class="links">
                 <ul class="link-list">
-                    <!-- Título da imersão -->
-                    <div class="section-title">
-                        <h2>A <span class="highlight-red">Imersão DevOps_</span> chegou na <span class="highlight-blue">Alura</span>!</h2>
-                    </div>
-
-                    <!-- Card com imagem -->
-                    <div class="card-with-image">
-                        <li>
-                            <div class="card-content">
-                                <h3>Faça a sua inscrição gratuitamente!</h3>
-                                <p>Garanta sua vaga na Imersão DevOps da Alura e mergulhe no universo!</p>
-                                <a href="https://alura.com.br/imersao-devops-google?utm_source=buzzlead&utm_medium=link&utm_content=MJNEJLX&utm_campaign=imersao-devops_inscrições&utm_term=buzzlead" target="_blank" class="link-button">
-                                    Clique aqui <ArrowUpRight :size="20"/>
-                                </a>
-                            </div>
-                            <div class="card-image-alura">
-                                <img src="../assets//images/alura-imersao.webp" alt="Imagem dos instrutores imersão devops">
-                            </div>
-                        </li>
-                    </div>
-
                     <!-- Título da imersão -->
                     <div class="section-title">
                         <h2>Garanta sua vaga com <span class="highlight-blue">desconto exclusivo</span> na <span class="highlight-blue">Alura</span>!</h2>
@@ -115,8 +94,18 @@
 
                     <div class="card-standard">
                         <li>
+                            <h3>Acompanhe os meu artigos no DEV.to!</h3>
+                            <p>Leia meus artigos sobre desenvolvimento front-end, dicas de carreira e novidades do mundo tech.</p>
+                            <a href="https://dev.to/duduubas" target="_blank" class="link-button">
+                                Clique aqui <ArrowUpRight :size="20"/>
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="card-standard">
+                        <li>
                             <h3>Me acompanhe no GitHub!</h3>
-                            <p>Acompanhe todos os meus projetos.</p>
+                            <p>Confira meus repositórios, projetos open source e contribuições para a comunidade de desenvolvimento.</p>
                             <a href="https://github.com/Duduubas" target="_blank" class="link-button">
                                 Clique aqui <ArrowUpRight :size="20"/>
                             </a>
@@ -126,7 +115,7 @@
                     <div class="card-standard">
                         <li>
                             <h3>Me siga no LinkedIn!</h3>
-                            <p>Conecte-se comigo para oportunidades profissionais e networking.</p>
+                            <p>Vamos nos conectar no LinkedIn para trocar ideias, expandir nossa rede e explorar novas oportunidades juntos!</p>
                             <a href="https://linkedin.com/in/eduardobritoo" target="_blank" class="link-button">
                                 Clique aqui <ArrowUpRight :size="20"/>
                             </a>
