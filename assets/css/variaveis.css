@@ -10,15 +10,11 @@
   --color-red: #CE1111;
   --color-cards: #151515;
 
-
-  --font-oxanium: 'Oxanium', sans-serif;
-  --font-montserrat: 'Montserrat', sans-serif;
-
-
-  --font-h: var(--font-oxanium);
-  --font-p: var(--font-montserrat);
+  --font-p: 'figtree-light';
+  --font-regular: 'figtree-regular';
+  --font-h: 'figtree-bold';
 }
 
 body {
-    background-color: var(--color-black);
+    background: linear-gradient(135deg, #101820 0%, #1a2233 40%, var(--color-blue) 80%, var(--color-blue-hover) 100%);
 }

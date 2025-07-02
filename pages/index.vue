@@ -1,145 +1,147 @@
 <template>
-    <!-- Seção do perfil -->
-    <section class="header">
-        <div>
-            <img src="../assets/images/eduardo2.webp" alt="Foto de perfil" class="profile-image">
-        </div>
-
-        <div class="header-content">
-            <h1>Boas-vindas aos meus links!</h1>
-            <p>Olá! Sou Eduardo Brito, desenvolvedor front-end focado em criar interfaces intuitivas e experiências interativas que elevam a navegação na web.</p>
-        </div>
-    </section>
-
-    <!-- Linha divisória -->
-    <div class="header-divider">
-        <hr>
-    </div>
-
-    <p class="section-call">Explore meus projetos e entre em contato para colaborações!</p>
-
-    <!-- Seção principal de links -->
-    <section class="main-section">
-        <div class="container">
-            <div class="links">
-                <ul class="link-list">
-                    <!-- Título da imersão -->
-                    <div class="section-title">
-                        <h2>Garanta sua vaga com <span class="highlight-blue">desconto exclusivo</span> na <span class="highlight-blue">Alura</span>!</h2>
-                    </div>
-
-                    <div class="card-standard">
-                        <li>
-                            <h3>Desconto especial na <span class="highlight-blue">Alura</span></h3>
-                            <p>Aproveite 15% OFF para estudar na principal escola de tecnologia do Brasil e impulsione sua carreira!</p>
-                            <a href="https://www.alura.com.br/indica-dev/duduubas" target="_blank" class="link-button">
-                                Resgate o desconto <ArrowUpRight :size="20"/>
-                            </a>
-                        </li>
-                    </div>
-
-                    <div class="section-title">
-                        <h2>Sobre mim & contato</h2>
-                    </div>
-
-                    <div class="card-standard">
-                        <li>
-                            <h3>Meu Portfólio</h3>
-                            <p>Veja meus principais projetos, experiências e saiba mais sobre minha trajetória.</p>
-                            <a href="https://eduardobrito.dev" target="_blank" class="link-button">
-                                Acessar portfólio <ArrowUpRight :size="20"/>
-                            </a>
-                        </li>
-                    </div>
-
-                    <div class="card-standard card-contact">
-                        <li>
-                            <h3>Solicite um Orçamento</h3>
-                            <p>Precisa de um site, landing page ou solução personalizada? Envie um e-mail e receba uma proposta sob medida para o seu projeto.</p>
-                            <a href="mailto:contato@eduardobrito.dev" class="link-button">
-                                Solicitar orçamento <ArrowUpRight :size="20"/>
-                            </a>
-                        </li>
-                    </div>
-
-                    <!-- Principais projetos -->
-                    <div class="section-title">
-                        <h2>Principais projetos</h2>
-                    </div>
-
-                    <div class="card-standard">
-                        <li>
-                            <h3>VIAMPEX</h3>
-                            <p>Plataforma online para emissão de certificados digitais.</p>
-                            <a href="https://viampex.com.br" target="_blank" class="link-button">
-                                Ver projeto no ar <ArrowUpRight :size="20"/>
-                            </a>
-                        </li>
-                    </div>
-
-                    <div class="card-standard">
-                        <li>
-                            <h3>Gerador de QR Codes</h3>
-                            <p>Crie QR Codes personalizados de forma rápida e fácil para compartilhar links e muito mais.</p>
-                            <a href="https://qrcodegenerator.eduardobrito.dev" target="_blank" class="link-button">
-                                Ver projeto no ar <ArrowUpRight :size="20"/>
-                            </a>
-                        </li>
-                    </div>
-
-                    <!-- Redes sociais -->
-                    <div class="section-title">
-                        <h2>Redes sociais</h2>
-                    </div>
-
-                    <div class="card-standard">
-                        <li>
-                            <h3>Acompanhe os meu artigos no DEV.to!</h3>
-                            <p>Leia meus artigos sobre desenvolvimento front-end, dicas de carreira e novidades do mundo tech.</p>
-                            <a href="https://dev.to/duduubas" target="_blank" class="link-button">
-                                Clique aqui <ArrowUpRight :size="20"/>
-                            </a>
-                        </li>
-                    </div>
-
-                    <div class="card-standard">
-                        <li>
-                            <h3>Me acompanhe no GitHub!</h3>
-                            <p>Confira meus repositórios, projetos open source e contribuições para a comunidade de desenvolvimento.</p>
-                            <a href="https://github.com/Duduubas" target="_blank" class="link-button">
-                                Clique aqui <ArrowUpRight :size="20"/>
-                            </a>
-                        </li>
-                    </div>
-
-                    <div class="card-standard">
-                        <li>
-                            <h3>Me siga no LinkedIn!</h3>
-                            <p>Vamos nos conectar no LinkedIn para trocar ideias, expandir nossa rede e explorar novas oportunidades juntos!</p>
-                            <a href="https://linkedin.com/in/eduardobritoo" target="_blank" class="link-button">
-                                Clique aqui <ArrowUpRight :size="20"/>
-                            </a>
-                        </li>
-                    </div>
-
-                    <div class="card-standard">
-                        <li>
-                            <h3>Contate-me pelo Discord!</h3>
-                            <p>Entre em contato comigo pelo Discord para conversarmos sobre projetos, dúvidas ou parcerias!</p>
-                            <a href="https://discord.com/users/522531030834610211" target="_blank" class="link-button">
-                                Clique aqui <ArrowUpRight :size="20"/>
-                            </a>
-                        </li>
-                    </div>
-                </ul>
+    <div class="template">
+        <!-- Seção do perfil -->
+        <section class="header">
+            <div>
+                <img src="../assets/images/eduardo2.webp" alt="Foto de perfil" class="profile-image">
             </div>
-        </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>Desenvolvido por <a href="https://eduardobrito.dev">Eduardo B.</a></p>
-    </footer>
+            <div class="header-content">
+                <h1>Boas-vindas aos meus links!</h1>
+                <p>Olá! Sou Eduardo Brito, desenvolvedor front-end focado em criar interfaces intuitivas e experiências interativas que elevam a navegação na web.</p>
+            </div>
+        </section>
+
+        <!-- Linha divisória -->
+        <div class="header-divider">
+            <hr>
+        </div>
+
+        <p class="section-call">Explore meus projetos e entre em contato para colaborações!</p>
+
+        <!-- Seção principal de links -->
+        <section class="main-section">
+            <div class="container">
+                <div class="links">
+                    <ul class="link-list">
+                        <!-- Título da imersão -->
+                        <div class="section-title">
+                            <h2>Garanta sua vaga com <span class="highlight-blue">desconto exclusivo</span> na <span class="highlight-blue">Alura</span>!</h2>
+                        </div>
+
+                        <div class="card-standard">
+                            <li>
+                                <h3>Desconto especial na <span class="highlight-blue">Alura</span></h3>
+                                <p>Aproveite 15% OFF para estudar na principal escola de tecnologia do Brasil e impulsione sua carreira!</p>
+                                <a href="https://www.alura.com.br/indica-dev/duduubas" target="_blank" class="link-button">
+                                    Resgate o desconto <ArrowUpRight :size="20"/>
+                                </a>
+                            </li>
+                        </div>
+
+                        <div class="section-title">
+                            <h2>Sobre mim & contato</h2>
+                        </div>
+
+                        <div class="card-standard">
+                            <li>
+                                <h3>Meu Portfólio</h3>
+                                <p>Veja meus principais projetos, experiências e saiba mais sobre minha trajetória.</p>
+                                <a href="https://eduardobrito.dev" target="_blank" class="link-button">
+                                    Acessar portfólio <ArrowUpRight :size="20"/>
+                                </a>
+                            </li>
+                        </div>
+
+                        <div class="card-standard card-contact">
+                            <li>
+                                <h3>Solicite um Orçamento</h3>
+                                <p>Precisa de um site, landing page ou solução personalizada? Envie um e-mail e receba uma proposta sob medida para o seu projeto.</p>
+                                <a href="mailto:contato@eduardobrito.dev" class="link-button">
+                                    Solicitar orçamento <ArrowUpRight :size="20"/>
+                                </a>
+                            </li>
+                        </div>
+
+                        <!-- Principais projetos -->
+                        <div class="section-title">
+                            <h2>Principais projetos</h2>
+                        </div>
+
+                        <div class="card-standard">
+                            <li>
+                                <h3>VIAMPEX</h3>
+                                <p>Plataforma online para emissão de certificados digitais.</p>
+                                <a href="https://viampex.com.br" target="_blank" class="link-button">
+                                    Ver projeto no ar <ArrowUpRight :size="20"/>
+                                </a>
+                            </li>
+                        </div>
+
+                        <div class="card-standard">
+                            <li>
+                                <h3>Gerador de QR Codes</h3>
+                                <p>Crie QR Codes personalizados de forma rápida e fácil para compartilhar links e muito mais.</p>
+                                <a href="https://qrcodegenerator.eduardobrito.dev" target="_blank" class="link-button">
+                                    Ver projeto no ar <ArrowUpRight :size="20"/>
+                                </a>
+                            </li>
+                        </div>
+
+                        <!-- Redes sociais -->
+                        <div class="section-title">
+                            <h2>Redes sociais</h2>
+                        </div>
+
+                        <div class="card-standard">
+                            <li>
+                                <h3>Acompanhe os meu artigos no DEV.to!</h3>
+                                <p>Leia meus artigos sobre desenvolvimento front-end, dicas de carreira e novidades do mundo tech.</p>
+                                <a href="https://dev.to/duduubas" target="_blank" class="link-button">
+                                    Clique aqui <ArrowUpRight :size="20"/>
+                                </a>
+                            </li>
+                        </div>
+
+                        <div class="card-standard">
+                            <li>
+                                <h3>Me acompanhe no GitHub!</h3>
+                                <p>Confira meus repositórios, projetos open source e contribuições para a comunidade de desenvolvimento.</p>
+                                <a href="https://github.com/Duduubas" target="_blank" class="link-button">
+                                    Clique aqui <ArrowUpRight :size="20"/>
+                                </a>
+                            </li>
+                        </div>
+
+                        <div class="card-standard">
+                            <li>
+                                <h3>Me siga no LinkedIn!</h3>
+                                <p>Vamos nos conectar no LinkedIn para trocar ideias, expandir nossa rede e explorar novas oportunidades juntos!</p>
+                                <a href="https://linkedin.com/in/eduardobritoo" target="_blank" class="link-button">
+                                    Clique aqui <ArrowUpRight :size="20"/>
+                                </a>
+                            </li>
+                        </div>
+
+                        <div class="card-standard">
+                            <li>
+                                <h3>Contate-me pelo Discord!</h3>
+                                <p>Entre em contato comigo pelo Discord para conversarmos sobre projetos, dúvidas ou parcerias!</p>
+                                <a href="https://discord.com/users/522531030834610211" target="_blank" class="link-button">
+                                    Clique aqui <ArrowUpRight :size="20"/>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Desenvolvido por <a href="https://eduardobrito.dev">Eduardo Brito</a>.</p>
+        </footer>
+    </div>
 </template>
 
 <script setup>
@@ -157,7 +159,6 @@ import { ArrowUpRight } from 'lucide-vue-next';
 /* ===== CONTAINER PRINCIPAL ===== */
 .template {
     min-height: 100vh;
-    background: linear-gradient(135deg, var(--color-black) 0%, #1a1a1a 100%);
     font-family: var(--font-montserrat);
     color: var(--color-white);
 }
@@ -180,7 +181,7 @@ import { ArrowUpRight } from 'lucide-vue-next';
 .profile-image {
     width: 184px;
     height: 184px;
-    border-radius: 50%;
+    border-radius: 20%;
     object-fit: cover;
     border: 4px solid var(--color-blue);
     box-shadow: 0 8px 24px rgba(0, 123, 255, 0.3);
@@ -201,6 +202,7 @@ import { ArrowUpRight } from 'lucide-vue-next';
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-align: left;
 }
 
 .header p {
@@ -208,6 +210,7 @@ import { ArrowUpRight } from 'lucide-vue-next';
     line-height: 1.6;
     color: var(--color-gray);
     font-family: var(--font-p);
+    text-align: left;
 }
 
 /* ===== LINHA DIVISÓRIA ===== */
@@ -219,14 +222,14 @@ import { ArrowUpRight } from 'lucide-vue-next';
 
 .header-divider hr {
     border: none;
-    border-top: 2px solid var(--color-cards);
+    border-top: 2px solid var(--color-white);
     width: 100%;
     max-width: 600px;
 }
 
 .section-call {
     color: var(--color-white);
-    font-family: var(--font-montserrat);
+    font-family: var(--font-p);
     text-align: center;
     margin-bottom: 2rem;
     padding: 0 1rem;
@@ -441,13 +444,13 @@ import { ArrowUpRight } from 'lucide-vue-next';
 }
 
 .footer a {
-    color: var(--color-blue);
+    color: var(--color-white);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer a:hover {
-    color: var(--color-blue-hover);
+    color: var(--color-black);
 }
 
 /* ===== ANIMAÇÕES ===== */
