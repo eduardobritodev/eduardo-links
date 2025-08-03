@@ -1,5 +1,6 @@
 <template>
   <NuxtLayout>
+    <Whatsapp />
     <NuxtPage />
   </NuxtLayout>
 </template>
@@ -7,6 +8,7 @@
 <script setup>
 import { watch } from 'vue'
 import { useRouter } from 'vue-router'
+import Whatsapp from '@/components/global/whatsapp/Whatsapp.vue'
 
 const router = useRouter()
 const { public: publicConfig } = useRuntimeConfig()
