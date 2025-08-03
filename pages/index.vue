@@ -1,14 +1,12 @@
 <template>
-    <div class="template">
+    < class="template">
         <!-- Seção do perfil -->
         <section class="header">
-            <div>
                 <img src="../assets/images/eduardo2.webp" alt="Foto de perfil" class="profile-image">
-            </div>
 
             <div class="header-content">
                 <h1>Boas-vindas aos meus links!</h1>
-                <p>Olá! Sou Eduardo Brito, desenvolvedor front-end focado em criar interfaces intuitivas e experiências interativas que elevam a navegação na web.</p>
+                <p>Olá! Sou Eduardo Brito, desenvolvedor front-end freelancer focado em criar interfaces intuitivas e experiências interativas que elevam a navegação na web.</p>
             </div>
         </section>
 
@@ -24,6 +22,20 @@
             <div class="container">
                 <div class="links">
                     <ul class="link-list">
+                        <div class="section-title">
+                            <h2>Imersão <span class="highlight-imersao">dev_</span> - Agentes de <span class="highlight-imersao">IA</span></h2>
+                        </div>
+
+                        <div class="card-standard">
+                            <li>
+                                <h3>Inscrições em breve!</h3>
+                                <p>A Imersão <strong>dev_</strong> com agentes de IA, da <span class="highlight-blue">Alura</span>, está chegando - e o melhor: será gratuita! Fique atento para não perder o início das inscrições.</p>
+                                <a href="https://www.alura.com.br/indica-dev/duduubas" target="_blank" class="link-button-imersao">
+                                    Inscrições a partir de 18/08 <Lock :size="20" />
+                                </a>
+                            </li>
+                        </div>
+
                         <!-- Título da imersão -->
                         <div class="section-title">
                             <h2>Garanta sua vaga com <span class="highlight-blue">desconto exclusivo</span> na <span class="highlight-blue">Alura</span>!</h2>
@@ -48,7 +60,7 @@
                                 <h3>Meu Portfólio</h3>
                                 <p>Veja meus principais projetos, experiências e saiba mais sobre minha trajetória.</p>
                                 <a href="https://eduardobrito.dev" target="_blank" class="link-button">
-                                    Acessar portfólio <ArrowUpRight :size="20"/>
+                                    Acesse meu portfólio <ArrowUpRight :size="20"/>
                                 </a>
                             </li>
                         </div>
@@ -58,7 +70,7 @@
                                 <h3>Solicite um Orçamento</h3>
                                 <p>Precisa de um site, landing page ou solução personalizada? Envie um e-mail e receba uma proposta sob medida para o seu projeto.</p>
                                 <a href="mailto:contato@eduardobrito.dev" class="link-button">
-                                    Solicitar orçamento <ArrowUpRight :size="20"/>
+                                    Solicite um orçamento <ArrowUpRight :size="20"/>
                                 </a>
                             </li>
                         </div>
@@ -73,7 +85,7 @@
                                 <h3>VIAMPEX</h3>
                                 <p>Plataforma online para emissão de certificados digitais.</p>
                                 <a href="https://viampex.com.br" target="_blank" class="link-button">
-                                    Ver projeto no ar <ArrowUpRight :size="20"/>
+                                    Veja o projeto no ar <ArrowUpRight :size="20"/>
                                 </a>
                             </li>
                         </div>
@@ -83,7 +95,7 @@
                                 <h3>Gerador de QR Codes</h3>
                                 <p>Crie QR Codes personalizados de forma rápida e fácil para compartilhar links e muito mais.</p>
                                 <a href="https://qrcodegenerator.eduardobrito.dev" target="_blank" class="link-button">
-                                    Ver projeto no ar <ArrowUpRight :size="20"/>
+                                    Veja o projeto no ar <ArrowUpRight :size="20"/>
                                 </a>
                             </li>
                         </div>
@@ -98,7 +110,7 @@
                                 <h3>Acompanhe os meu artigos no DEV.to!</h3>
                                 <p>Leia meus artigos sobre desenvolvimento front-end, dicas de carreira e novidades do mundo tech.</p>
                                 <a href="https://dev.to/duduubas" target="_blank" class="link-button">
-                                    Clique aqui <ArrowUpRight :size="20"/>
+                                    Acesse o DEV.to <ArrowUpRight :size="20"/>
                                 </a>
                             </li>
                         </div>
@@ -108,7 +120,7 @@
                                 <h3>Me acompanhe no GitHub!</h3>
                                 <p>Confira meus repositórios, projetos open source e contribuições para a comunidade de desenvolvimento.</p>
                                 <a href="https://github.com/Duduubas" target="_blank" class="link-button">
-                                    Clique aqui <ArrowUpRight :size="20"/>
+                                    Acesse o GitHub <ArrowUpRight :size="20"/>
                                 </a>
                             </li>
                         </div>
@@ -118,7 +130,7 @@
                                 <h3>Me siga no LinkedIn!</h3>
                                 <p>Vamos nos conectar no LinkedIn para trocar ideias, expandir nossa rede e explorar novas oportunidades juntos!</p>
                                 <a href="https://linkedin.com/in/eduardobritoo" target="_blank" class="link-button">
-                                    Clique aqui <ArrowUpRight :size="20"/>
+                                    Acesse o LinkedIn <ArrowUpRight :size="20"/>
                                 </a>
                             </li>
                         </div>
@@ -128,7 +140,7 @@
                                 <h3>Contate-me pelo Discord!</h3>
                                 <p>Entre em contato comigo pelo Discord para conversarmos sobre projetos, dúvidas ou parcerias!</p>
                                 <a href="https://discord.com/users/522531030834610211" target="_blank" class="link-button">
-                                    Clique aqui <ArrowUpRight :size="20"/>
+                                    Acesse o Discord <ArrowUpRight :size="20"/>
                                 </a>
                             </li>
                         </div>
@@ -138,31 +150,42 @@
         </section>
 
         <!-- Footer -->
-        <footer class="footer">
-            <p>Desenvolvido por <a href="https://eduardobrito.dev">Eduardo Brito</a>.</p>
+        <footer>
+            <div class="container">
+                <p>Tecnologia por <a href="https://eduardobrito.dev">Eduardo Brito | Dev.</a></p>
+            </div>
         </footer>
-    </div>
 </template>
 
 <script setup>
-import { ArrowUpRight } from 'lucide-vue-next';
+import { ArrowUpRight, Lock } from 'lucide-vue-next';
 </script>
 
 <style scoped>
-/* ===== RESET E CONFIGURAÇÕES GLOBAIS ===== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.highlight-imersao {
+    background: linear-gradient(90deg, #0ea0e4 0%, #ff65c1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
-/* ===== CONTAINER PRINCIPAL ===== */
-.template {
-    min-height: 100vh;
-    font-family: var(--font-montserrat);
-    color: var(--color-white);
+.link-button-imersao {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #2c2c2c; /* cinza escuro neutro */
+    color: #999;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px solid #444;
+    border-radius: 999px;
+    text-decoration: none;
+    cursor: not-allowed;
+    opacity: 0.6;
+    transition: none;
+    box-shadow: none;
+    pointer-events: none; /* impede clique */
 }
-
 /* ===== SEÇÃO DO PERFIL ===== */
 .header {
     display: flex;
@@ -196,7 +219,7 @@ import { ArrowUpRight } from 'lucide-vue-next';
 
 .header h1 {
     font-family: var(--font-h);
-    font-size: 2.2rem;
+    font-size: var(--f6);
     margin-bottom: 1rem;
     background: linear-gradient(45deg, var(--color-blue), var(--color-blue-hover));
     -webkit-background-clip: text;
@@ -206,7 +229,7 @@ import { ArrowUpRight } from 'lucide-vue-next';
 }
 
 .header p {
-    font-size: 1.1rem;
+    font-size: var(--f3);
     line-height: 1.6;
     color: var(--color-gray);
     font-family: var(--font-p);
@@ -230,6 +253,7 @@ import { ArrowUpRight } from 'lucide-vue-next';
 .section-call {
     color: var(--color-white);
     font-family: var(--font-p);
+    font-size: var(--f3);
     text-align: center;
     margin-bottom: 2rem;
     padding: 0 1rem;
@@ -267,7 +291,7 @@ import { ArrowUpRight } from 'lucide-vue-next';
 
 .section-title h2 {
     font-family: var(--font-h);
-    font-size: 1.5rem;
+    font-size: var(--f5);
     color: var(--color-white);
 }
 
@@ -328,16 +352,6 @@ import { ArrowUpRight } from 'lucide-vue-next';
     transition: all 0.3s ease;
 }
 
-.card-image-alura { 
-    width: 180px;
-    height: 180px;
-    padding: 10px;
-    border-radius: 12px;
-    border: 2px solid var(--color-red);
-    box-shadow: 0 8px 24px rgba(206, 17, 17);
-    transition: all 0.3s ease;
-}
-
 .card-image img {
     width: 100%;
     height: 100%;
@@ -382,22 +396,28 @@ import { ArrowUpRight } from 'lucide-vue-next';
 }
 
 /* ===== TEXTOS DOS CARDS ===== */
-.card-standard h3,
-.card-with-image h3 {
-    font-family: var(--font-h);
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-    color: var(--color-white);
+.card-standard h3 {
+    font-family: var(--font-p);
+    font-size: var(--f4);
     font-weight: 600;
+    color: var(--color-white);
+    margin-bottom: 0.5rem;
 }
 
 .card-standard p,
 .card-with-image p {
-    font-size: 0.95rem;
+    font-size: var(--f3);
     color: var(--color-gray);
     font-family: var(--font-p);
     line-height: 1.5;
     margin-bottom: 1rem;
+}
+
+.card-standard a {
+    color: var(--color-white);
+    font-family: var(--font-p);
+    font-weight: 600;
+    font-size: var(--f2);
 }
 
 /* ===== BOTÕES ===== */
@@ -436,20 +456,33 @@ import { ArrowUpRight } from 'lucide-vue-next';
 }
 
 /* ===== FOOTER ===== */
-.footer {
-    text-align: center;
-    padding: 2rem;
-    color: var(--color-gray);
-    font-family: var(--font-p);
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto 10px;
 }
 
-.footer a {
+footer .container {
+    text-align: center;
+    color: var(--color-gray);
+    font-family: var(--font-p);
+    font-weight: 600;
+    background: linear-gradient(45deg, var(--color-blue), var(--color-blue-hover));
     color: var(--color-white);
     text-decoration: none;
+    padding: 15px 0;
+    border-radius: 20px;
     transition: color 0.3s ease;
 }
 
-.footer a:hover {
+footer .container a{
+    color: var(--color-white);
+}
+
+footer .container a:hover {
     color: var(--color-black);
 }
 
@@ -550,14 +583,6 @@ import { ArrowUpRight } from 'lucide-vue-next';
     .profile-image {
         width: 120px;
         height: 120px;
-    }
-    
-    .header-divider {
-        padding: 1.5rem;
-    }
-    
-    .main-section {
-        padding: 0 0.5rem 1.5rem;
     }
     
     .link-list {
