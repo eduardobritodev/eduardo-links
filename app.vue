@@ -24,9 +24,7 @@ useSeoMeta({
   ogTitle: publicConfig.siteName,
   description: publicConfig.siteDescription,
   ogDescription: publicConfig.siteDescription,
-  
-  // SEO Keywords e Robots
-  keywords: 'soluções digitais, certificado digital, desenvolvimento web, viampex, agência digital, SEO, tráfego pago, design gráfico, branding',
+
   robots: 'index, follow',
   googlebot: 'index, follow, max-image-preview:large, max-snippet:-1',
   author: publicConfig.authorName,
