@@ -11,8 +11,8 @@
                     <li class="card">
                         <h3>Inscrições em breve!</h3>
                         <p>A Imersão <strong>dev_</strong> com agentes de IA, da <span class="highlight-blue">Alura</span>, está chegando - e o melhor: será gratuita! Fique atento para não perder o início das inscrições.</p>
-                        <a href="#" class="button button-disabled">
-                            Inscrições a partir de 18/08 <Lock :size="20" />
+                        <a href="https://www.alura.com.br/imersao-agentes-ia-google?utm_source=buzzlead&utm_medium=link&utm_content=RKKAJLW&utm_campaign=imersao-ia-com-código-google_inscricoes&utm_term=buzzlead" class="button">
+                            Inscrições a partir de 18/08 <ArrowUpRight :size="20"/>
                         </a>
                     </li>
 
