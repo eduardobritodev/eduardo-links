@@ -48,7 +48,7 @@ import { ArrowUpRight, Lock } from 'lucide-vue-next';
 const listaSecoes = [
     {
         id: 1,
-        titulo: 'Garanta sua vaga com <span class="highlight-blue">desconto exclusivo</span> na <span class="highlight-blue">Alura</span>!',
+        titulo: 'Garanta sua vaga com desconto exclusivo na Alura!',
         cards: [
             {
                 id: 1,
