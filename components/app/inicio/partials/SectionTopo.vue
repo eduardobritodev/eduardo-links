@@ -3,7 +3,7 @@
         <img src="../../../../assets/images/eduardo2.webp" alt="Foto de perfil" class="profile-image">
         <div class="topo-content">
             <h1>Boas-vindas aos meus links!</h1>
-            <p>Olá! Sou Eduardo Brito, desenvolvedor front-end freelancer focado em criar interfaces intuitivas e experiências interativas que elevam a navegação na web.</p>
+            <p>Olá! Sou Eduardo Brito, desenvolvedor web freelancer focado em criar interfaces intuitivas e experiências interativas que elevam a navegação na web.</p>
         </div>
     </section>
 </template>

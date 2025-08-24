@@ -9,10 +9,10 @@
                     </div>
 
                     <li class="card">
-                        <h3>Inscrições em breve!</h3>
-                        <p>A Imersão <strong>dev_</strong> com agentes de IA, da <span class="highlight-blue">Alura</span>, está chegando - e o melhor: será gratuita! Fique atento para não perder o início das inscrições.</p>
+                        <h3>Inscrições abertas!</h3>
+                        <p>Garanta sua vaga gratuita na Imersão <strong>dev_</strong> com agentes de IA da <span class="highlight-blue">Alura</span>! Inscreva-se agora e participe desse evento exclusivo.</p>
                         <a href="https://www.alura.com.br/imersao-agentes-ia-google?utm_source=buzzlead&utm_medium=link&utm_content=RKKAJLW&utm_campaign=imersao-ia-com-código-google_inscricoes&utm_term=buzzlead" class="button">
-                            Inscrições a partir de 18/08 <ArrowUpRight :size="20"/>
+                            Inscreva-se agora mesmo! <ArrowUpRight :size="20"/>
                         </a>
                     </li>
 
@@ -263,7 +263,7 @@ const listaSecoes = [
     padding: 15px 50px;
     border-radius: 30px;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: var(--f2);
     transition: all 0.3s ease;
     box-shadow: 0 4px 16px rgba(0, 123, 255, 0.3);
     position: relative;

@@ -5,7 +5,6 @@
         <div class="divider">
             <hr>
         </div>
-        <p class="section-call">Explore meus projetos e entre em contato para colaborações!</p>
         <SectionCards/>
         <SectionFooter/>
     </div>
@@ -22,7 +21,7 @@ import SectionFooter from '../components/app/inicio/partials/SectionFooter.vue';
 .divider {
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    margin-top: 2rem;
 }
 
 .divider hr {
@@ -30,15 +29,6 @@ import SectionFooter from '../components/app/inicio/partials/SectionFooter.vue';
     border-top: 2px solid var(--color-white);
     width: 100%;
     max-width: 600px;
-}
-
-.section-call {
-    color: var(--color-white);
-    font-family: var(--font-p);
-    font-size: var(--f3);
-    text-align: center;
-    margin-bottom: 2rem;
-    padding: 0 1rem;
 }
 
 /* ===== RESPONSIVIDADE ===== */
@@ -69,7 +59,7 @@ import SectionFooter from '../components/app/inicio/partials/SectionFooter.vue';
     }
     
     .divider hr {
-        max-width: 100%;
+        max-width: 350px;
     }
     
     .card {
